@@ -148,31 +148,37 @@ h3{
     font-size: large;
 }
 
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #0C120C;
+    bottom: 0;
+    margin-top: auto;
+}
 
+footer p{
+    color: #fffffb;
+    padding: 0rem;
+}
 
-@media (max-width:576px){
-    footer{
-        display: grid;
-        align-items: flex-start;
-        justify-content: start;
-        grid-template-areas: 
-        "info1"
-        "info2"
-        "info3"
-        ;
-        flex-direction: column;
-    }
+.navlink-fake{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
 
-    .info1{
-        grid-area: info1;
-    }
+footer a{
+    color: #fffffb 
+}
 
-    .info2{
-        grid-area: info2;
-    }
+[copyright="yes"] {
+    font-size: 10px;
+    padding: 8px;
+}
 
-    .info3{
-        grid-area: info3;
-    }
-
+.socialmedia{
+    display: inline-block;
+    cursor: pointer;
+    margin: 1rem;
 }
