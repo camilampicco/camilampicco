@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fffffb;
+    font-family: "Montserrat";
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.content {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.btn-dark{
+    color: #0C120C;
+    height:45px;
+}
+
+.textform{
+    color: #fffffb;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-link{
+    color: #0C120C
+}
+
+.categories ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+} 
+
+.categories{
+    background-color: #0C120C;
+    padding:1rem;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.text-categories{
+    color: #fffffb;
+    text-decoration: none;
+    list-style: none;
+    font-size: large;
+}
+
+.text-categories:hover{
+    color: grey;
+}
+
+[active="yes"] {
+    text-decoration: underline;
+    color: #fffffb;
+}
+
+h2{
+    color: #3F7D20 ;
+    font-weight: bolder;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.primary-dark{
+    background-color: #0C120C;
+    color:#fffffb;
+    height: 4rem;
+    width: 14rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.primary-dark:hover{
+    background-color: #fffffb;
+    color:#0C120C;
+    border: 3px solid #0C120C;
+}
+
+.primary-darkp:hover{
+    color:#0C120C;
+}
+
+.primary-darkp{
+    color: #fffffb;
+    font-weight: bold;
+    font-size: large;
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    background-color: #0C120C;
+    bottom: 0;
+    margin-top: auto;
+}
+
+h5{
+    color: #fffffb;
+    font-weight: bold;
+}
+
+h4{
+    color:#3F7D20;
+    font-weight: bold;    
+}
+
+.socialmedia{
+    display: inline-flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-around;
+}
+
+h1{
+    color:#3F7D20;
+    font-weight: bold;
+    margin: 1rem;    
+}
+
+@media (max-width:576px){
+    footer{
+        display: grid;
+        align-items: flex-start;
+        justify-content: start;
+        grid-template-areas: 
+        "info1"
+        "info2"
+        "info3"
+        ;
+        flex-direction: column;
+    }
+
+    .info1{
+        grid-area: info1;
+    }
+
+    .info2{
+        grid-area: info2;
+    }
+
+    .info3{
+        grid-area: info3;
+    }
+
+}
