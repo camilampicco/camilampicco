@@ -1,3 +1,7 @@
+
+@import "_typography";
+
+
 *{
     margin: 0;
     padding:0;
@@ -66,9 +70,6 @@ h2{
     font-weight: bolder;
 }
 
-.italic{
-    font-style: italic;
-}
 
 .primary-dark{
     background-color: #0C120C;
