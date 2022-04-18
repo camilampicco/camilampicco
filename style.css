@@ -133,6 +133,23 @@ h1{
     margin: 1rem;    
 }
 
+h2{
+    margin:1rem;
+}
+
+.card-image{
+    height: 80%;
+    width: 80%;
+}
+
+h3{
+    color: #0C120C;
+    font-weight: bold;
+    font-size: large;
+}
+
+
+
 @media (max-width:576px){
     footer{
         display: grid;
