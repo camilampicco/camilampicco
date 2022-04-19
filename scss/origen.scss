@@ -1,169 +1,14 @@
 
 @import "_typography";
+@import "_colours";
+@import "_structure";
+@import "_variables";
 
 
 *{
     margin: 0;
     padding:0;
     box-sizing: border-box;
-}
-
-body{
-    background-color: #fffffb;
-    font-family: "Montserrat";
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
-
-.content {
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-
-.btn-dark{
-    color: #0C120C;
-    height:45px;
-}
-
-.textform{
-    color: #fffffb;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.nav-link{
-    color: #0C120C
-}
-
-.categories ul {
-    margin: 0;
-    padding: 0;
-    display: flex;
-} 
-
-.categories{
-    background-color: #0C120C;
-    padding:1rem;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-.text-categories{
-    color: #fffffb;
-    text-decoration: none;
-    list-style: none;
-    font-size: large;
-    &:hover{
-        color: grey;
-    }
-}
-
-[active="yes"] {
-    text-decoration: underline;
-    color: #fffffb;
-}
-
-h2{
-    color: #3F7D20 ;
-    font-weight: bolder;
-}
-
-
-.primary-dark{
-    background-color: #0C120C;
-    color:#fffffb;
-    height: 4rem;
-    width: 14rem;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    &:hover{
-        background-color: #fffffb;
-        color:#0C120C;
-        border: 3px solid #0C120C;
-    }
-}
-
-.primary-darkp{
-    color: #fffffb;
-    font-weight: bold;
-    font-size: large;
-    display: flex;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    .primary-darkp:hover{
-        color:#0C120C;
-    }
-}
-
-h5{
-    color: #fffffb;
-    font-weight: bold;
-}
-
-h4{
-    color:#3F7D20;
-    font-weight: bold;    
-}
-
-h1{
-    color:#3F7D20;
-    font-weight: bold;
-    margin: 1rem;    
-}
-
-h2{
-    margin:1rem;
-}
-
-.card-image{
-    height: 80%;
-    width: 80%;
-}
-
-h3{
-    color: #0C120C;
-    font-weight: bold;
-    font-size: large;
-}
-
-footer {
-    text-align: center;
-    padding: 1rem;
-    background-color: #0C120C;
-    bottom: 0;
-    margin-top: auto;
-    p{
-        color: #fffffb;
-        padding: 0rem;
-    }
-    a{
-        color: #fffffb 
-    }
-    .socialmedia{
-        cursor: pointer;
-        margin: 1rem;
-        display: inline-flex;
-        align-items: center;
-        justify-items: center;
-        justify-content: space-around;
-    }
-    [copyright="yes"] {
-        font-size: 10px;
-        padding: 8px;
-    }
-}
-
-.navlink-fake{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
 }
 
 .photomate1 .photomate1:hover{
@@ -174,3 +19,5 @@ footer {
     transition-property: all;
     transition-duration: 2s;
 }
+
+

@@ -1,0 +1,25 @@
+@import "_variables";
+
+.nav-link{
+    color: #0C120C
+}
+
+.btn-dark{
+    color: #0C120C;
+    height:45px;
+}
+
+
+[active="yes"] {
+    text-decoration: underline;
+    color: #fffffb;
+}
+
+
+
+.categories{
+    background-color: #0C120C;
+    padding:1rem;
+    align-items: center;
+    justify-content: space-evenly;
+}

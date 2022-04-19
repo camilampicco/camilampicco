@@ -1,3 +1,56 @@
+
+@import "_variables";
+
 .italic{
     font-style: italic;
+}
+
+h5{
+    color: $primarycolour;
+    font-weight: bold;
+}
+
+h4{
+    color: $acentcolour;
+    font-weight: bold;    
+}
+
+h1{
+    color: $acentcolour;
+    font-weight: bold;
+    margin: 1rem;    
+}
+
+h2{
+    color: $acentcolour ;
+    font-weight: bolder;
+    &{
+        margin:1rem;
+    }
+}
+
+h3{
+    color: $secondarycolour;
+    font-weight: bold;
+    font-size: large;
+}
+
+.text-categories{
+    color: $primarycolour;
+    text-decoration: none;
+    list-style: none;
+    font-size: large;
+    &:hover{
+        color: grey;
+    }
+}
+
+.italic{
+    font-style: italic;
+}
+
+.textform{
+    color: $primarycolour;
+    text-decoration: none;
+    font-weight: bold;
 }
