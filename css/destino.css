@@ -1,57 +1,3 @@
-.italic {
-  font-style: italic;
-}
-
-h5 {
-  color: #fffffb;
-  font-weight: bold;
-}
-
-h4 {
-  color: #3F7D20;
-  font-weight: bold;
-}
-
-h1 {
-  color: #3F7D20;
-  font-weight: bold;
-  margin: 1rem;
-}
-
-h2 {
-  color: #3F7D20;
-  font-weight: bolder;
-}
-h2 {
-  margin: 1rem;
-}
-
-h3 {
-  color: #0C120C;
-  font-weight: bold;
-  font-size: large;
-}
-
-.text-categories {
-  color: #fffffb;
-  text-decoration: none;
-  list-style: none;
-  font-size: large;
-}
-.text-categories:hover {
-  color: grey;
-}
-
-.italic {
-  font-style: italic;
-}
-
-.textform {
-  color: #fffffb;
-  text-decoration: none;
-  font-weight: bold;
-}
-
 .nav-link {
   color: #0C120C;
 }
@@ -64,6 +10,26 @@ h3 {
 [active=yes] {
   text-decoration: underline;
   color: #fffffb;
+}
+
+h1, h2, h3, h6 {
+  color: #3F7D20;
+  font-weight: bolder;
+}
+
+h5 {
+  color: #fffffb;
+  font-weight: bolder;
+}
+
+h4 {
+  color: #0C120C;
+  font-weight: bold;
+}
+
+.values {
+  color: #3F7D20;
+  font-weight: bold;
 }
 
 .categories {
@@ -159,6 +125,64 @@ footer [copyright=yes] {
 }
 .primary-darkp .primary-darkp:hover {
   color: #0C120C;
+}
+
+.section-title, .section-subtitle {
+  margin-left: 2rem;
+}
+
+.card-image {
+  width: 12rem;
+  height: 12rem;
+  background-color: white;
+}
+
+.h-1 {
+  font-size: 3rem;
+}
+
+.h-2 {
+  font-size: 1.5rem;
+}
+
+.h-3 {
+  font-size: 1rem;
+}
+
+.h-4 {
+  font-size: 0.75rem;
+}
+
+.h-5 {
+  font-size: 0.6rem;
+}
+
+.h-6 {
+  font-size: 0.5rem;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.text-categories {
+  color: #fffffb;
+  text-decoration: none;
+  list-style: none;
+  font-size: large;
+}
+.text-categories:hover {
+  color: grey;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.textform {
+  color: #fffffb;
+  text-decoration: none;
+  font-weight: bolder;
 }
 
 * {

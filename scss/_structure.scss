@@ -85,3 +85,18 @@ footer {
         color:#0C120C;
     }
 }
+
+.section-title, .section-subtitle {
+    margin-left: 2rem;
+}
+
+@mixin size($width, $height){
+    width: $width;
+    height: $height;
+    background-color: white;
+}
+
+.card-image{
+    @include size(12rem, 12rem);
+}
+

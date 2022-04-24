@@ -9,13 +9,30 @@
     height:45px;
 }
 
-
-[active="yes"] {
+[active=yes]{
     text-decoration: underline;
     color: #fffffb;
 }
 
+h1, h2, h3, h6 {
+    color: $acentcolour;
+    font-weight: bolder;
+}
 
+h5 {
+    color: $primarycolour;
+    font-weight: bolder;
+}
+
+h4 {
+    color: $secondarycolour;
+    font-weight: bold;
+}
+
+.values{
+    color: $acentcolour;
+    font-weight: bold;
+}
 
 .categories{
     background-color: #0C120C;

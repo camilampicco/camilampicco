@@ -1,8 +1,8 @@
 
-@import "_typography";
-@import "_colours";
-@import "_structure";
-@import "_variables";
+@import "colours";
+@import "structure";
+@import "typography";
+@import "variables";
 
 
 *{
@@ -21,9 +21,5 @@
 }
 
 
-$width: 720px;
 
-main {
-    width: $width *2;
-}
 
