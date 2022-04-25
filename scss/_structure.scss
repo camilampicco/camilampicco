@@ -1,3 +1,5 @@
+@import "variables";
+
 body{
     background-color: #fffffb;
     font-family: "Montserrat";
@@ -100,3 +102,13 @@ footer {
     @include size(12rem, 12rem);
 }
 
+h1, h2{
+    @if $section == div {
+        margin-left: $marginmainsub;
+    }
+    @else if $section != div {
+        margin-left: $marginsubtitle;
+    }
+}
+
+//no me salio lo de arriba 

@@ -137,6 +137,10 @@ footer [copyright=yes] {
   background-color: white;
 }
 
+h1, h2 {
+  margin-left: 0;
+}
+
 .h-1 {
   font-size: 3rem;
 }
