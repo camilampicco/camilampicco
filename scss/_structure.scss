@@ -1,7 +1,8 @@
 @import "variables";
 
+
 body{
-    background-color: #fffffb;
+    background-color: map-get($pagecolours, primary);
     font-family: "Montserrat";
     display: flex;
     flex-direction: column;
@@ -19,23 +20,18 @@ body{
     display: flex;
 } 
 
-.card-image{
-    height: 80%;
-    width: 80%;
-}
-
 footer {
     text-align: center;
     padding: 1rem;
-    background-color: #0C120C;
+    background-color: map-get($pagecolours, dark);
     bottom: 0;
     margin-top: auto;
     p{
-        color: #fffffb;
+        color: map-get($pagecolours, primary);
         padding: 0rem;
     }
     a{
-        color: #fffffb 
+        color: map-get($pagecolours, primary);
     }
     .socialmedia{
         cursor: pointer;
@@ -45,7 +41,7 @@ footer {
         justify-items: center;
         justify-content: space-around;
     }
-    [copyright="yes"] {
+    [copyright=yes] {
         font-size: 10px;
         padding: 8px;
     }
@@ -59,7 +55,7 @@ footer {
 }
 
 .primary-dark{
-    background-color: #0C120C;
+    background-color:  map-get($pagecolours, dark);
     color:#fffffb;
     height: 4rem;
     width: 14rem;
@@ -69,7 +65,7 @@ footer {
     align-items: center;
     &:hover{
         background-color: #fffffb;
-        color:#0C120C;
+        color: map-get($pagecolours, dark);
         border: 3px solid #0C120C;
     }
 }
@@ -102,13 +98,21 @@ footer {
     @include size(12rem, 12rem);
 }
 
-h1, h2{
-    @if $section == div {
-        margin-left: $marginmainsub;
-    }
-    @else if $section != div {
-        margin-left: $marginsubtitle;
-    }
+/* esto hay q revisar pq no esta ok 
+
+p{
+    color: map-get($pagecolours, dark)
 }
 
-//no me salio lo de arriba 
+$section: carousel;
+$pcolor: white;
+$pcolor2: black;
+
+p{
+    @if $section == carousel{
+        color: $pcolor;
+    }
+    @else if $section != carousel {
+        color: $pcolor2;
+    }
+} */ 

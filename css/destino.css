@@ -12,24 +12,22 @@
   color: #fffffb;
 }
 
-h1, h2, h3, h6 {
+h1, h2, h3, h6, h5, h4 {
   color: #3F7D20;
   font-weight: bolder;
 }
 
 h5 {
   color: #fffffb;
-  font-weight: bolder;
 }
 
 h4 {
   color: #0C120C;
-  font-weight: bold;
 }
 
 .values {
   color: #3F7D20;
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 .categories {
@@ -37,6 +35,10 @@ h4 {
   padding: 1rem;
   align-items: center;
   justify-content: space-evenly;
+}
+
+p {
+  color: #0C120C;
 }
 
 body {
@@ -56,11 +58,6 @@ body {
   margin: 0;
   padding: 0;
   display: flex;
-}
-
-.card-image {
-  height: 80%;
-  width: 80%;
 }
 
 footer {
@@ -137,10 +134,24 @@ footer [copyright=yes] {
   background-color: white;
 }
 
-h1, h2 {
-  margin-left: 0;
+/* esto hay q revisar pq no esta ok 
+
+p{
+    color: map-get($pagecolours, dark)
 }
 
+$section: carousel;
+$pcolor: white;
+$pcolor2: black;
+
+p{
+    @if $section == carousel{
+        color: $pcolor;
+    }
+    @else if $section != carousel {
+        color: $pcolor2;
+    }
+} */
 .h-1 {
   font-size: 3rem;
 }
@@ -202,6 +213,11 @@ h1, h2 {
 .photomate1 .photomate1:hover {
   transition-property: all;
   transition-duration: 2s;
+}
+
+[active=yes] {
+  text-decoration: underline;
+  color: #fffffb;
 }
 
 /*# sourceMappingURL=destino.css.map */
