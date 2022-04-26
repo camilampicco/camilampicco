@@ -7,22 +7,20 @@
   height: 45px;
 }
 
-[active=yes] {
-  text-decoration: underline;
-  color: #fffffb;
-}
-
 h1, h2, h3, h6, h5, h4 {
   color: #3F7D20;
   font-weight: bolder;
+  margin-left: 2rem;
 }
 
 h5 {
   color: #fffffb;
+  margin-left: 0;
 }
 
 h4 {
   color: #0C120C;
+  margin-left: 0;
 }
 
 .values {
@@ -35,10 +33,6 @@ h4 {
   padding: 1rem;
   align-items: center;
   justify-content: space-evenly;
-}
-
-p {
-  color: #0C120C;
 }
 
 body {
@@ -134,24 +128,10 @@ footer [copyright=yes] {
   background-color: white;
 }
 
-/* esto hay q revisar pq no esta ok 
-
-p{
-    color: map-get($pagecolours, dark)
+.first-title {
+  margin-left: 0;
 }
 
-$section: carousel;
-$pcolor: white;
-$pcolor2: black;
-
-p{
-    @if $section == carousel{
-        color: $pcolor;
-    }
-    @else if $section != carousel {
-        color: $pcolor2;
-    }
-} */
 .h-1 {
   font-size: 3rem;
 }

@@ -98,21 +98,6 @@ footer {
     @include size(12rem, 12rem);
 }
 
-/* esto hay q revisar pq no esta ok 
-
-p{
-    color: map-get($pagecolours, dark)
+.first-title{
+    margin-left: 0;
 }
-
-$section: carousel;
-$pcolor: white;
-$pcolor2: black;
-
-p{
-    @if $section == carousel{
-        color: $pcolor;
-    }
-    @else if $section != carousel {
-        color: $pcolor2;
-    }
-} */ 

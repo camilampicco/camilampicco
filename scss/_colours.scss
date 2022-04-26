@@ -9,25 +9,24 @@
     height:45px;
 }
 
-[active=yes]{
-    text-decoration: underline;
-    color: map-get($pagecolours, primary);
-}
-
 h1, h2, h3, h6, h5, h4 {
     color: map-get($pagecolours, accent);
     font-weight: $boldtitle;
+    margin-left: 2rem;
 }
 
 h5{
-    @extend h1;
-    color: map-get($pagecolours, primary)
+    @extend h2 ;
+    color: map-get($pagecolours, primary);
+    margin-left: 0;
 }
 
 h4{
-    @extend h1;
-    color: map-get($pagecolours, dark)
+    @extend h2 ;
+    color: map-get($pagecolours, dark);
+    margin-left: 0;
 }
+
 
 .values{
     color: map-get($pagecolours, accent);
@@ -41,6 +40,3 @@ h4{
     justify-content: space-evenly;
 }
 
-p{
-    color: map-get($pagecolours, dark)
-}
