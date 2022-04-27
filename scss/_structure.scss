@@ -1,5 +1,8 @@
+@import "variables";
+
+
 body{
-    background-color: #fffffb;
+    background-color: map-get($pagecolours, primary);
     font-family: "Montserrat";
     display: flex;
     flex-direction: column;
@@ -17,23 +20,18 @@ body{
     display: flex;
 } 
 
-.card-image{
-    height: 80%;
-    width: 80%;
-}
-
 footer {
     text-align: center;
     padding: 1rem;
-    background-color: #0C120C;
+    background-color: map-get($pagecolours, dark);
     bottom: 0;
     margin-top: auto;
     p{
-        color: #fffffb;
+        color: map-get($pagecolours, primary);
         padding: 0rem;
     }
     a{
-        color: #fffffb 
+        color: map-get($pagecolours, primary);
     }
     .socialmedia{
         cursor: pointer;
@@ -43,7 +41,7 @@ footer {
         justify-items: center;
         justify-content: space-around;
     }
-    [copyright="yes"] {
+    [copyright=yes] {
         font-size: 10px;
         padding: 8px;
     }
@@ -57,7 +55,7 @@ footer {
 }
 
 .primary-dark{
-    background-color: #0C120C;
+    background-color:  map-get($pagecolours, dark);
     color:#fffffb;
     height: 4rem;
     width: 14rem;
@@ -67,21 +65,39 @@ footer {
     align-items: center;
     &:hover{
         background-color: #fffffb;
-        color:#0C120C;
+        color: map-get($pagecolours, dark);
         border: 3px solid #0C120C;
     }
 }
 
 .primary-darkp{
-    color: #fffffb;
+    @extend .primary-dark;
     font-weight: bold;
-    font-size: large;
-    display: flex;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     text-decoration: none;
-    .primary-darkp:hover{
+    &:hover{
         color:#0C120C;
     }
 }
+
+.section-title, .section-subtitle {
+    margin-left: 2rem;
+}
+
+@mixin size($width, $height){
+    width: $width;
+    height: $height;
+    background-color: white;
+}
+
+.card-image{
+    @include size(12rem, 12rem);
+}
+
+.first-title{
+    margin-left: 0;
+}
+
+.text-bodycard{
+    margin-left: 2rem;
+}
+

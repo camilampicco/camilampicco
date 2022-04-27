@@ -1,22 +1,54 @@
 @import "_variables";
 
 .nav-link{
-    color: #0C120C
+    color: map-get($pagecolours, dark);
 }
 
 .btn-dark{
-    color: #0C120C;
-    height:45px;
+    color: map-get($pagecolours, dark);
+    height:8rem;
 }
 
+<<<<<<< HEAD
 [active="yes"] {
     text-decoration: underline;
     color: #fffffb;
 }
 
+=======
+h1, h2, h3, h6, h5, h4 {
+    color: map-get($pagecolours, accent);
+    font-weight: $boldtitle;
+    margin-left: 2rem;
+}
+
+h5{
+    @extend h2 ;
+    color: map-get($pagecolours, primary);
+    margin-left: 0;
+}
+
+h4{
+    @extend h2 ;
+    color: map-get($pagecolours, dark);
+    margin-left: 0;
+}
+
+.values{
+    color: map-get($pagecolours, accent);
+    font-weight: $boldtitle;
+}
+
+>>>>>>> second
 .categories{
-    background-color: #0C120C;
+    background-color: map-get($pagecolours, dark);
     padding:1rem;
     align-items: center;
     justify-content: space-evenly;
 }
+
+[active=yes]{
+    text-decoration: underline;
+    color: map-get($pagecolours, primary);
+}
+
