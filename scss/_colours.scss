@@ -9,37 +9,11 @@
     height:8rem;
 }
 
-<<<<<<< HEAD
 [active="yes"] {
     text-decoration: underline;
     color: #fffffb;
 }
 
-=======
-h1, h2, h3, h6, h5, h4 {
-    color: map-get($pagecolours, accent);
-    font-weight: $boldtitle;
-    margin-left: 2rem;
-}
-
-h5{
-    @extend h2 ;
-    color: map-get($pagecolours, primary);
-    margin-left: 0;
-}
-
-h4{
-    @extend h2 ;
-    color: map-get($pagecolours, dark);
-    margin-left: 0;
-}
-
-.values{
-    color: map-get($pagecolours, accent);
-    font-weight: $boldtitle;
-}
-
->>>>>>> second
 .categories{
     background-color: map-get($pagecolours, dark);
     padding:1rem;
