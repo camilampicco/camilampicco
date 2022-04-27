@@ -1,6 +1,5 @@
 @import "variables";
 
-
 body{
     background-color: map-get($pagecolours, primary);
     font-family: "Montserrat";
@@ -71,15 +70,10 @@ footer {
 }
 
 .primary-darkp{
-    color: #fffffb;
+    @extend .primary-dark;
     font-weight: bold;
-    font-size: large;
-    display: flex;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     text-decoration: none;
-    .primary-darkp:hover{
+    &:hover{
         color:#0C120C;
     }
 }
@@ -105,4 +99,5 @@ footer {
 .text-bodycard{
     margin-left: 2rem;
 }
+
 
