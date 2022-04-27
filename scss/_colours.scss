@@ -6,7 +6,7 @@
 
 .btn-dark{
     color: map-get($pagecolours, dark);
-    height:45px;
+    height:8rem;
 }
 
 h1, h2, h3, h6, h5, h4 {
@@ -27,7 +27,6 @@ h4{
     margin-left: 0;
 }
 
-
 .values{
     color: map-get($pagecolours, accent);
     font-weight: $boldtitle;
@@ -40,3 +39,7 @@ h4{
     justify-content: space-evenly;
 }
 
+[active=yes]{
+    text-decoration: underline;
+    color: map-get($pagecolours, primary);
+}

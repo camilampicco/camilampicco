@@ -20,10 +20,6 @@
     transition-duration: 2s;
 }
 
-[active=yes]{
-    text-decoration: underline;
-    color: map-get($pagecolours, primary);
-}
 
 
 
