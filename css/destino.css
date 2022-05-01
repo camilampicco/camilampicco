@@ -4,7 +4,7 @@
 
 .btn-dark {
   color: #0C120C;
-  height: 45px;
+  height: 8rem;
 }
 
 h1, h2, h3, h6, h5, h4 {
@@ -33,6 +33,11 @@ h4 {
   padding: 1rem;
   align-items: center;
   justify-content: space-evenly;
+}
+
+[active=yes] {
+  text-decoration: underline;
+  color: #fffffb;
 }
 
 body {
@@ -88,7 +93,7 @@ footer [copyright=yes] {
   text-decoration: none;
 }
 
-.primary-dark {
+.primary-dark, .primary-darkp {
   background-color: #0C120C;
   color: #fffffb;
   height: 4rem;
@@ -98,23 +103,17 @@ footer [copyright=yes] {
   justify-content: center;
   align-items: center;
 }
-.primary-dark:hover {
+.primary-dark:hover, .primary-darkp:hover {
   background-color: #fffffb;
   color: #0C120C;
   border: 3px solid #0C120C;
 }
 
 .primary-darkp {
-  color: #fffffb;
   font-weight: bold;
-  font-size: large;
-  display: flex;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   text-decoration: none;
 }
-.primary-darkp .primary-darkp:hover {
+.primary-darkp:hover {
   color: #0C120C;
 }
 
@@ -130,6 +129,10 @@ footer [copyright=yes] {
 
 .first-title {
   margin-left: 0;
+}
+
+.text-bodycard {
+  margin-left: 2rem;
 }
 
 .h-1 {
@@ -170,10 +173,6 @@ footer [copyright=yes] {
   color: grey;
 }
 
-.italic {
-  font-style: italic;
-}
-
 .textform {
   color: #fffffb;
   text-decoration: none;
@@ -193,11 +192,6 @@ footer [copyright=yes] {
 .photomate1 .photomate1:hover {
   transition-property: all;
   transition-duration: 2s;
-}
-
-[active=yes] {
-  text-decoration: underline;
-  color: #fffffb;
 }
 
 /*# sourceMappingURL=destino.css.map */
