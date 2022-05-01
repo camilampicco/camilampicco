@@ -35,11 +35,6 @@ h4 {
   justify-content: space-evenly;
 }
 
-[active=yes] {
-  text-decoration: underline;
-  color: #fffffb;
-}
-
 body {
   background-color: #fffffb;
   font-family: "Montserrat";
@@ -192,6 +187,11 @@ footer [copyright=yes] {
 .photomate1 .photomate1:hover {
   transition-property: all;
   transition-duration: 2s;
+}
+
+[active=yes] {
+  text-decoration: underline;
+  color: #fffffb;
 }
 
 /*# sourceMappingURL=destino.css.map */
