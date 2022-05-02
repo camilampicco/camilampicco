@@ -102,5 +102,11 @@ footer {
 #presentation {
     align-items: flex-start;
     justify-content: flex-start;
+}
 
+.navlink-fake{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
 }

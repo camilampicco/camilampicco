@@ -133,6 +133,13 @@ footer [copyright=yes] {
   justify-content: flex-start;
 }
 
+.navlink-fake {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
 .h-1 {
   font-size: 3rem;
 }
