@@ -71,7 +71,7 @@ footer {
 
 .primary-darkp{
     @extend .primary-dark;
-    font-weight: bold;
+    font-weight: $boldtitle;
     text-decoration: none;
     &:hover{
         color:#0C120C;
