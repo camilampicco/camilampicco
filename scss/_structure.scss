@@ -47,13 +47,6 @@ footer {
     }
 }
 
-.navlink-fake{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-}
-
 .primary-dark{
     background-color:  map-get($pagecolours, dark);
     color:#fffffb;
@@ -101,3 +94,13 @@ footer {
     margin-left: 2rem;
 }
 
+.card {
+    align-items: center;
+    justify-content: center;
+}
+
+#presentation {
+    align-items: flex-start;
+    justify-content: flex-start;
+
+}

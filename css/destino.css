@@ -81,13 +81,6 @@ footer [copyright=yes] {
   padding: 8px;
 }
 
-.navlink-fake {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-decoration: none;
-}
-
 .primary-dark, .primary-darkp {
   background-color: #0C120C;
   color: #fffffb;
@@ -128,6 +121,16 @@ footer [copyright=yes] {
 
 .text-bodycard {
   margin-left: 2rem;
+}
+
+.card {
+  align-items: center;
+  justify-content: center;
+}
+
+#presentation {
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 
 .h-1 {
