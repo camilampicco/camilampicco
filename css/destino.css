@@ -133,7 +133,7 @@ footer [copyright=yes] {
   justify-content: center;
 }
 
-#presentation {
+.presentation {
   align-items: flex-start;
   justify-content: flex-start;
 }
