@@ -5,4 +5,6 @@ I'm currently learning Javascript, and I'll continue with Vue.js and React - and
 
 Ask me about UX and UI Design thinking and methodologies ⚡
 
-This first project is to complete my UX UI Developer career at Coderhouse. Hope you enjoy it! 
+This first project is to complete my UX UI Developer career at Coderhouse. I used HTML, CSS, SASS & BT. 
+
+Hope you enjoy it! 
