@@ -1,39 +1,39 @@
 @import "_variables";
 
 .nav-link{
-    color: map-get($pagecolours, dark);
+    color: $black;
 }
 
 .btn-dark{
-    color: map-get($pagecolours, dark);
+    color: $black;
     height:4rem;
 }
 
 h1, h2, h3, h6, h5, h4 {
-    color: map-get($pagecolours, accent);
+    color: $green;
     font-weight: $boldtitle;
     margin-left: 2rem;
 }
 
 h5{
     @extend h2 ;
-    color: map-get($pagecolours, primary);
+    color: $white;
     margin-left: 0;
 }
 
 h4{
     @extend h2 ;
-    color: map-get($pagecolours, dark);
+    color: $black;
     margin-left: 0;
 }
 
 .values{
-    color: map-get($pagecolours, accent);
+    color: $green;
     font-weight: $boldtitle;
 }
 
 .categories{
-    background-color: map-get($pagecolours, dark);
+    background-color: $black;
     padding:1rem;
     align-items: center;
     justify-content: space-evenly;

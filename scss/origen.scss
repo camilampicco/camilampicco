@@ -1,9 +1,8 @@
 
+@import "variables";
 @import "colours";
 @import "structure";
 @import "typography";
-@import "variables";
-
 
 *{
     margin: 0;
@@ -22,7 +21,7 @@
 
 [active=yes]{
     text-decoration: underline;
-    color: map-get($pagecolours, primary)
+    color: $white;
 }
 
 

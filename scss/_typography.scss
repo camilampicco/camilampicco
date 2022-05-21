@@ -12,7 +12,7 @@
 }
 
 .text-categories{
-    color: map-get($pagecolours, primary);
+    color: $white;
     text-decoration: none;
     list-style: none;
     font-size: large;
@@ -22,7 +22,7 @@
 }
 
 .textform{
-    color: map-get($pagecolours, primary);
+    color: $white;
     text-decoration: none;
     font-weight: $boldtitle;
 }
