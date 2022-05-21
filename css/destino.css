@@ -4,7 +4,7 @@
 
 .btn-dark {
   color: #0C120C;
-  height: 8rem;
+  height: 4rem;
 }
 
 h1, h2, h3, h6, h5, h4 {
@@ -84,7 +84,7 @@ footer [copyright=yes] {
 .primary-dark, .primary-darkp {
   background-color: #0C120C;
   color: #fffffb;
-  height: 4rem;
+  height: 3rem;
   width: 14rem;
   border-radius: 10px;
   display: flex;
